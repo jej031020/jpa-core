@@ -15,6 +15,18 @@ public class Memo {
     @Column(length = 500)
     private String contents;
 
+    public Long getId() {
+        return id;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public String getContents() {
+        return contents;
+    }
+
     public void setId(Long id) {
         this.id = id;
     }
